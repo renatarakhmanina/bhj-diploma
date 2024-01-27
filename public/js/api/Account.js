@@ -13,6 +13,7 @@ class Account extends Entity {
 
   static get(id = '', callback) {
     const urlWithId = `${this.URL}/${id}`;
+    console.log(urlWithId);
     createRequest({
       url: urlWithId,
       method: 'GET',

@@ -22,15 +22,23 @@ const createRequest = (options = {}) => {
     }
     xhr.open(options.method, options.url);
     xhr.send(options.data);
+    
   } catch (e) {
     // перехват ошибки
-    callback(e);
+    if (options.callback) {
+      options.callback(e, null);
+    }
+    return;
   }
 
   // обработка успешного завершения запроса
   xhr.addEventListener('load', () => {
     if (xhr.status >= 200 && xhr.status < 300) {
-      options.callback(null, xhr.response);
+      if (xhr.response) {
+        options.callback(null, xhr.response);
+      } else {
+        options.callback(new Error('Empty response'), null);
+      }
     } else {
       options.callback(new Error(`Request failed with status ${xhr.status}`), null);
     }
