@@ -53,6 +53,12 @@
       "email": "111111@111.com",
       "password": "1234",
       "id": "d1cr2veflrtj1i7j"
+    },
+    {
+      "name": "anon",
+      "email": "anon@anon.com",
+      "password": "123456",
+      "id": "d1cr2ryllsgmjfie"
     }
   ],
   "accounts": [
@@ -70,80 +76,6 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
-    },
-    {
-      "name": "kjhg",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21ac8lrmombsm"
-    },
-    {
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21ao1lrmootxw"
-    },
-    {
-      "name": "888",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21b25lrmounnn"
-    },
-    {
-      "name": "111",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21brjlrmp3uv5"
-    },
-    {
-      "name": "11111",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21c5flrmpbhzq"
-    },
-    {
-      "name": "Renata",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21c7slrmpg4a0"
-    },
-    {
-      "name": "Home",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21cbclrqisdtn"
-    },
-    {
-      "name": "1111",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21z67lrqjh9tu"
-    },
-    {
-      "name": "66666",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr2206olrqkea0n"
-    },
-    {
-      "name": "ggg",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr220g5lrqkindp"
-    },
-    {
-      "name": "zdfv",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr220ttlrqkosm8"
-    },
-    {
-      "name": "ааа",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr22107lrqkvzj5"
-    },
-    {
-      "name": "длромпа",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr221g3lrql76li"
-    },
-    {
-      "name": "ывап",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr222c9lrqls3ax"
-    },
-    {
-      "name": "78899",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr222onlrqlv5t2"
     },
     {
       "name": "234",
@@ -176,139 +108,34 @@
       "id": "d1cr2qgdlrtfivhe"
     },
     {
-      "name": "сбер",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21c9glrw37jju"
-    },
-    {
-      "name": "888888",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21cc6lrw390ov"
-    },
-    {
-      "name": "ддд",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21ddylrw3j1ue"
-    },
-    {
-      "name": "kkkk",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21ebnlrw3nxpa"
-    },
-    {
-      "name": "dfghj",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21f71lrw3zdo7"
-    },
-    {
-      "name": "6565",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21fo0lrw443s1"
-    },
-    {
-      "name": "qwertyuijnbgv",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21fz7lrw47qq2"
-    },
-    {
-      "name": "kkkkkl;lkjh",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21hrwlrw4zgmn"
-    },
-    {
-      "name": "77778888",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21j2plrw59bii"
-    },
-    {
-      "name": "/.,mnbfdfghjk.,",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21j5tlrw5d6r8"
-    },
-    {
-      "name": "xxxxxx",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21kovlrw6ssx5"
-    },
-    {
-      "name": "vvvvvv",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21lmtlrw7d8ce"
-    },
-    {
-      "name": "ччччччч",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21m5zlrw7sza3"
-    },
-    {
-      "name": "ФФФФФФ",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21m8llrw847hb"
-    },
-    {
-      "name": "длорпапрол",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21mhalrw86ajx"
-    },
-    {
-      "name": "dfghjkmnbvf",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21mwilrw8phzq"
-    },
-    {
-      "name": "yjdskk",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21n9rlrw8xo03"
-    },
-    {
-      "name": "xdcvbnjyt",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21nfqlrw8z439"
-    },
-    {
-      "name": "8765543",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21w6tlrwd28bt"
-    },
-    {
-      "name": "009985гг",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21wfqlrwd804d"
-    },
-    {
-      "name": "009рррррр",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21wnxlrwdfqas"
-    },
-    {
-      "name": ";lkjhgyvbn",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21wzclrwdkonb"
-    },
-    {
-      "name": "gccxyrxcighbbh",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21x1zlrwdmznt"
-    },
-    {
-      "name": "mnbvcfghjkl,",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21y22lrwe5dmq"
-    },
-    {
-      "name": "xxxvcccd",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21yu9lrweer3f"
-    },
-    {
-      "name": "вообще новый",
-      "user_id": "sktwi60olqb8vhk9",
-      "id": "d1cr21ywllrweg1pl"
-    },
-    {
       "name": "Счет",
       "user_id": "sktwigu5lqbmsv9m",
       "id": "d1cr21ziilrwespw7"
+    },
+    {
+      "name": "account1",
+      "user_id": "d1cr22382lrqmkj3m",
+      "id": "d1cr21zkxlrwn19q4"
+    },
+    {
+      "name": "account2",
+      "user_id": "d1cr22382lrqmkj3m",
+      "id": "d1cr2215ulrwn1qs2"
+    },
+    {
+      "name": "третий",
+      "user_id": "sktwi60olqb8vhk9",
+      "id": "d1cr21taklsfb4tc5"
+    },
+    {
+      "name": "второй",
+      "user_id": "sktwi60olqb8vhk9",
+      "id": "d1cr2ibjlsgicclt"
+    },
+    {
+      "name": "еще один",
+      "user_id": "sktwi60olqb8vhk9",
+      "id": "d1cr2ie5lsgiciax"
     }
   ],
   "transactions": [
@@ -446,6 +273,33 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "d1cr21tctlsfb56eh",
+      "type": "income",
+      "name": "принес",
+      "sum": 150,
+      "account_id": "d1cr21taklsfb4tc5",
+      "user_id": "sktwi60olqb8vhk9",
+      "created_at": "2024-02-09T23:57:41.416Z"
+    },
+    {
+      "id": "d1cr2igalsgics2q",
+      "type": "expense",
+      "name": "потерно",
+      "sum": 500,
+      "account_id": "d1cr2ibjlsgicclt",
+      "user_id": "sktwi60olqb8vhk9",
+      "created_at": "2024-02-10T20:07:19.585Z"
+    },
+    {
+      "id": "d1cr2jwglsgii7l3",
+      "type": "income",
+      "name": "зэпэшка",
+      "sum": 10000000000,
+      "account_id": "d1cr2ie5lsgiciax",
+      "user_id": "sktwi60olqb8vhk9",
+      "created_at": "2024-02-10T20:11:32.966Z"
     }
   ]
 }

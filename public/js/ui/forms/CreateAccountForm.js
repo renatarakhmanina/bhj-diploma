@@ -20,6 +20,6 @@ class CreateAccountForm extends AsyncForm {
       } else {
         console.error('Error creating account:', err);
       }
-    })
+    });
   }
 }

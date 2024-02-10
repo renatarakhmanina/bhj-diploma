@@ -21,6 +21,8 @@ class LoginForm extends AsyncForm {
         if (modal) {
           modal.close();
         }
+      } else {
+        console.error('Login error:', err);
       }
     });
   }

@@ -3,6 +3,8 @@
  * отображения счетов в боковой колонке
  * */
 
+
+
 class AccountsWidget {
   /**
    * Устанавливает текущий элемент в свойство element
@@ -59,12 +61,12 @@ class AccountsWidget {
    * метода renderItem()
    * */
   update() {
-    const currentUser = User.current();
-    if (currentUser) {
-      Account.list({}, (err, accountList) => {
-        if (!err) {
+    const userCurrent = User.current();
+    if (userCurrent) {
+      Account.list({ user_id: userCurrent.id }, (err, list) => {
+        if (list) {
           this.clear();
-          accountList.forEach(item => this.renderItem(item));
+          list.forEach(item => this.renderItem(item));
         } else {
           console.error('Error fetching accounts:', err);
         }
@@ -78,8 +80,7 @@ class AccountsWidget {
    * в боковой колонке
    * */
   clear() {
-    const accounts = document.querySelectorAll('.account');
-    accounts.forEach(account => account.remove());
+    this.element.querySelectorAll('.account').forEach(account => account.remove());
   }
 
   /**
@@ -90,11 +91,10 @@ class AccountsWidget {
    * Вызывает App.showPage( 'transactions', { account_id: id_счёта });
    * */
   onSelectAccount(element) {
-    const accounts = document.querySelectorAll('.account');
-    accounts.forEach(account => account.classList.remove('active'));
+    document.querySelectorAll('.account').forEach(account => account.classList.remove('active'));
     element.classList.add('active');
     const accountId = element.dataset.id;
-    App.showPage('transactions', { id: accountId });
+    App.showPage('transactions', { account_id: accountId });
   }
 
   /**
@@ -105,7 +105,7 @@ class AccountsWidget {
   getAccountHTML(item) {
     const li = document.createElement('li');
     li.classList.add('account');
-    li.setAttribute('data-id', item.id);
+    li.dataset.id= item.id;
     const a = document.createElement('a');
     a.setAttribute('href', '#');
 

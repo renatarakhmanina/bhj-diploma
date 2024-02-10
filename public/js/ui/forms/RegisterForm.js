@@ -21,6 +21,8 @@ class RegisterForm extends AsyncForm {
         if (modal) {
           modal.close();
         }
+      } else {
+        console.error('Registration error:', err);
       }
     });
   }

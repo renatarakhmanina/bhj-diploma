@@ -13,11 +13,22 @@ class Account extends Entity {
 
   static get(id = '', callback) {
     const urlWithId = `${this.URL}/${id}`;
-    console.log(urlWithId);
     createRequest({
       url: urlWithId,
       method: 'GET',
-      callback: callback
+      callback: (err, response) => {
+        if (response && response.success) {
+          const accountName = response.data.name; 
+          if (typeof callback === 'function') {
+            callback(null, accountName);
+          }
+        } else {
+          console.error('Fetching error:', err);
+          if (typeof callback === 'function') {
+            callback(err, null);
+          }
+        }
+      }
     });
   }
 }
